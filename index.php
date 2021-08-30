@@ -17,6 +17,6 @@ for ($i = 1; $i <= 100; $i++) {
     }
     //vielfach von 3 und 5
     if ($i % 3 == 0 && $i % 5 == 0) {
-        echo "FizzBuzz <br/>";
+        echo "FizzBuzz <br/>"; 
     }
 }
