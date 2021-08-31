@@ -7,11 +7,11 @@ for ($i = 1; $i <= 100; $i++) {
     if ($i % 3 != 0 && $i % 5 != 0) {
         echo "$i <br/>";
     }
-    //vielfach von 3
+    //vielfach von 3 und nicht vielfach von 5
     if ($i % 3 == 0 && $i % 5 != 0) {
         echo "Fizz <br/>";
     }
-    //vielfach von 5
+    //vielfach von 5 und nicht vielfach von 3 
     if ($i % 5 == 0 && $i % 3 != 0) {
         echo "Buzz <br/>";
     }
