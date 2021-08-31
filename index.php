@@ -1,7 +1,7 @@
 <?php
 
 
-// zählen for schleife
+// Zählung for-schleife
 for ($i = 1; $i <= 100; $i++) {
     // Bedingung für noramle Zählung
     if ($i % 3 != 0 && $i % 5 != 0) {
